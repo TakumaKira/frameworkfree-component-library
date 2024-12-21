@@ -38,3 +38,10 @@ This is a trial to create a framework-free component library. The component libr
     - make it installable as a package without any extra files
     - handle multiple components
   - Dependence to `lit` should be adequately managed
+
+## Preliminary Notes
+
+- Web components can be the best solution for building components for multi-framework-based projects.
+- Using many components through microfrontend architecture is not performant. Microfrontend should be divided into more bigger domains.
+- Microfrontend architecture typically does not allow using diffrent frameworks into single app as it eventually imports another ones as modules.
+  -> My test should focus on sharing components for different frameworks.
