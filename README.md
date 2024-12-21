@@ -38,6 +38,7 @@ This is a trial to create a framework-free component library. The component libr
     - make it installable as a package without any extra files
     - handle multiple components
   - Dependence to `lit` should be adequately managed
+- Create environment to develop components with Storybook (when [@storybook/lit](https://www.npmjs.com/package/@storybook/lit) is ready for production, though it looks like the project is currently not active)
 
 ## Preliminary Notes
 
